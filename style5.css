@@ -1,0 +1,85 @@
+/*Linear Gradient*/
+.div1{
+    height: 150px;
+    width: 800px;
+    -webkit-    background: linear-gradient(to left, red,green, blue, yellow);
+    -moz-    background: linear-gradient(to left, red,green, blue, yellow);
+    -o-    background: linear-gradient(to left, red,green, blue, yellow);
+
+    background: linear-gradient(to left, red,green, blue, yellow);
+}
+
+/*Radial Gradient*/
+.div2{
+    height: 150px;
+    width: 800px;
+
+    -wwebkit-background: radial-gradient( red 15%,green 42%, blue 59%, yellow 10%);
+
+    background: radial-gradient( red 15%,green 42%, blue 59%, yellow 10%);
+}
+
+/*Animation 1*/
+.div3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: lipu;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes lipu{
+   from{
+       background-color: red;
+   }
+   to{
+       background-color: green; border-radius: 50%;
+   }
+}
+
+/*Animation 2*/
+.div4{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: lipus;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    /*animation-direction: alternate;*/
+    position:relative;
+
+}
+
+@keyframes lipus{
+    0%{left: 0px; top: 0px; background-color: red; border-radius: 50%;}
+    25%{left: 800px; top: 0px;   background-color: green;border-radius: 10%;}
+    50%{left: 800px; top: 200px; background-color: yellow; border-radius: 20%;}
+    75%{left: 0px; top: 200px; background-color: blue; border-radius: 35%;}
+    100%{left: 0px; top: 0px;background-color: red; border-radius: 50%;}
+    
+}
+
+/*Audio*/
+audio{
+    margin-top: 210px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+/*Video*/
+video{
+    border: 2px solid green;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+/*Iframe*/
+.it{
+    height: 600px;
+    width: 800px;
+    border: 2px solid green;
+    border-radius: 10px;
+}

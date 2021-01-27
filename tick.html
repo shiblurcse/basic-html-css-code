@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .container{
+            background-color: cadetblue;
+            margin: 0 auto;
+            padding: 20px;
+            width: 980px;
+        }
+        .container li{
+            /*padding: 20px;
+            font-weight: bolder;
+            font-size: 1.5rem;
+            list-style-type: none;
+            list-style-position: inside;
+            list-style-image: url(image/tick.png);
+            color: white;*/
+            list-style-type: none;
+            padding: 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+
+        }
+        .container li::before{
+            content: '\f058';
+            font-family: 'Font Awesome 5 Free';
+            font-weight: bolder;
+            display: inline-block;
+            font-size: 1.5rem;
+            margin: 10px;
+            color: white;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BOOTSTRAP</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </div>
+</body>
+</html>

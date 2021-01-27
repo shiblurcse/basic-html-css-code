@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Coloumn</title>
+    <style>
+        *{
+           
+            box-sizing: border-box;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .coloumn{
+            flex: 25%;
+            padding: 10px;
+        }
+    @media screen and (max-width: 920px) {
+        .coloumn{
+            flex: 50%;
+        }
+    }
+    @media screen and (max-width: 600px) {
+       .row{
+           flex-direction: column;
+       }
+       .coloumn{
+           background-color: cadetblue;
+           color: white;
+       }
+       h1:hover{
+           background-color: tomato;
+           text-align: center;
+           transition: all 0.1s ease;
+       }
+    }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="coloumn">
+            <h1>HTML</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam vitae ea excepturi inventore necessitatibus est sunt recusandae magnam expedita!</p>
+        </div>
+        <div class="coloumn">
+            <h1>CSS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam vitae ea excepturi inventore necessitatibus est sunt recusandae magnam expedita!</p>
+        </div>
+        <div class="coloumn">
+            <h1>JavaScript</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam vitae ea excepturi inventore necessitatibus est sunt recusandae magnam expedita!</p>
+        </div>
+        <div class="coloumn">
+            <h1>Bootstrap</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam vitae ea excepturi inventore necessitatibus est sunt recusandae magnam expedita!</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <style>
+        .item1{grid-area: header;}
+        .item2{grid-area: menu;}
+        .item3{grid-area: main;}
+        .item4{grid-area: sidebar;}
+        .item5{grid-area: footer;}
+
+        .container{
+            display: grid;
+            /*grid-template-columns:  auto auto auto auto auto auto;*/
+            grid-template-areas: 
+            'header header header header header header header'
+            'menu main main main main sidebar sidebar'
+            'footer footer footer footer footer footer footer '
+            ;
+            text-align: center;
+            border: 1px solid black;
+            
+                       
+        }
+        .container > div{
+            border: 2px solid black;
+            background-color: cadetblue; 
+            font-size: 1.5rem;
+        }
+
+        /*
+        .item1{
+            grid-column: 1/7;
+        }
+        .item2{
+           grid-column: 1/2; 
+        }
+        .item3{
+            grid-column: 2/5;
+        }
+        .item4{
+            grid-column: 5/7;
+        }
+        .item5{
+            grid-column: 1/7;
+        }*/
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1"><h1 >Header</h1></div>
+        <div class="item2"><h1 >Menu</h1></div>
+        <div class="item3"><h1 >Main</h1></div>
+        <div class="item4"><h1 >Side-Bar</h1></div>
+        <div class="item5"><h1 >Footer</h1></div>
+    </div>
+</body>
+</html>

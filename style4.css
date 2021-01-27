@@ -1,0 +1,41 @@
+/*Form*/
+input[type=text]{
+    width: 150px;
+    font-weight: bold;
+    color: darkgreen;
+    border-radius: 5px;
+}
+textarea{
+    color: green;
+    font-family: italic;
+    border-radius: 5px;
+}
+/*Button & Javascript*/
+.mybtn{
+    color: red;
+    background-color: grey;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease 1s;
+    height: 50px;
+    width: 150px;
+}
+.mybtn:hover{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   
+}
+
+/*Clear*/
+img{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+p.clear{
+    clear: both;
+    border: 2px solid red;
+}
+

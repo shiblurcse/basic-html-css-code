@@ -1,0 +1,75 @@
+/*floating & hover*/
+.block1{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    float: left;
+    margin-right: 20px;
+    color:  white;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.block1:hover{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    color: black;
+
+}
+.block2{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    float: left;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.block2:hover{
+    background-color: teal;
+    width: 300px;
+    height: 300px;
+    color: black;
+}
+
+/*Transition*/
+.block3{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    font-weight: bold;
+    color: cornsilk;
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    -webkit-transition: all ease-in-out 2s;
+    -moz-transition: all ease-in-out 2s;
+    -ms-transition: all ease-in-out 2s;
+    -o-transition: all ease-in-out 2s;
+  
+}
+
+.block3:hover{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(13, 238, 32);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    /*transform: skewX(20deg);*/
+    /*transform: scale(1.5, 3);*/
+}
+
+/*List*/
+.list{
+    margin-top: 200px;
+}
+.list ul {
+    list-style-type: square;
+}
+.list ul ul{
+    list-style-type: circle;
+}

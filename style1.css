@@ -1,0 +1,48 @@
+p{
+    font-weight: bold;
+    color: red;
+  
+}
+.blue{
+    color: blue;
+    font-weight: normal;
+}
+.bold{
+    font-weight: bold;
+}
+#id{
+    color: orange;
+}
+.text{
+    text-decoration: underline;
+    /*
+    text-decoration: overline;
+    text-decoration: line-through;*/
+    color: black;
+    font-weight: normal;
+
+}
+
+.font{
+    font:italic bold small-caps 30px/150% arial;
+    text-transform: lowercase;
+    /*
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 25px;
+    line-height: 150%;
+    */
+    
+}
+
+/*background image*/
+.image{
+    color: #76d61e;
+    font-size: 30px;
+    line-height: 1em;
+    background-image: url(image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

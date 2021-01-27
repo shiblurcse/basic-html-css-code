@@ -1,0 +1,49 @@
+/*3 Coloumn Website*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 960px;
+    margin: 10px auto;
+    
+}
+.box img{
+    width: 300px;
+    height: 200.063px;
+    
+}
+h1{
+    color: orange;
+    text-align:center;
+}
+p{
+    text-align: justify;
+    margin-top: 5px;
+}
+.box{
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    
+}
+.lipu{
+    margin-right: 0px;
+}
+.box a{
+    color: red;
+    background-color: orange;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+   transition:all 2s ease;
+}
+.box a:hover{
+    color: white;
+    background-color: black;
+}
+
